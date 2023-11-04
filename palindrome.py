@@ -1,7 +1,7 @@
 example_text1 = "potop"
 example_text2 = "test"
 
-def checkIsPalindrome(text):
+def check_is_palindrome(text):
     """
        Checks whether the given argument is a palindrome.
 
@@ -9,9 +9,7 @@ def checkIsPalindrome(text):
             passed string value to check
         True or False value is returned
     """
-    reverseTxt = text[::-1]
-    if reverseTxt == text:
-        return True
-    return False
+    reverse_txt = text[::-1]
+    return reverse_txt == text
 
-checkIsPalindrome(example_text1)
+check_is_palindrome(example_text1)
